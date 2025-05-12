@@ -1,0 +1,1 @@
+This script uses the Binomial distribution to enter trades. It calculates the cumulative distribution function for the last 20 bars, applies 2 EMAs(Slow 21, Fast 484) to the CDF, and then goes long when the fast one crosses the slow one.
